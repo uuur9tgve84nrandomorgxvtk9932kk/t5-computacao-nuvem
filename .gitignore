@@ -1,0 +1,37 @@
+# Ignore Python cache and virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+
+# Ignore editor and OS files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore AWS credentials and sensitive files
+chave-aluno.pem
+*.pem
+*.key
+*.crt
+*.env
+.aws/
+
+# Ignore log and output files
+*.log
+*.out
+*.tmp
+
+# Ignore backup files
+*.bak
+*.old
+
+# Ignore shell history
+.bash_history
+
+# Ignore node modules (if any JS tooling is used)
+node_modules/
