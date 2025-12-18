@@ -2,8 +2,8 @@
 # deploy_app.sh (Gold Master - Final Fix LB Registration)
 
 # --- CONFIGURAÇÃO ---
-INSTANCE_COUNT=3          # Quantidade de instâncias (Escala Horizontal)
-INSTANCE_TYPE="t3.xlarge"  # Tipo da instância (Escala Vertical)
+INSTANCE_COUNT=6          # Quantidade de instâncias (Escala Horizontal)
+INSTANCE_TYPE="t3.micro"  # Tipo da instância (Escala Vertical)
 KEY_NAME="chave-aluno" 
 STACK_NAME="benchmark-arena"
 

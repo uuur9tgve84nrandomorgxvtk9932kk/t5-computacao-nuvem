@@ -1,0 +1,8 @@
+Method,Name,Error,Occurrences
+GET,/post-detail,HTTPError('504 Server Error: Gateway Time-out for url: /post-detail'),14
+GET,/,HTTPError('504 Server Error: Gateway Time-out for url: /'),9
+GET,/post-detail,HTTPError('502 Server Error: Bad Gateway for url: /post-detail'),1
+GET,/post-detail,HTTPError('500 Server Error: Internal Server Error for url: /post-detail'),1094
+GET,/,HTTPError('503 Server Error: Service Unavailable for url: /'),1
+GET,/post-detail,HTTPError('503 Server Error: Service Unavailable for url: /post-detail'),6
+GET,/,HTTPError('500 Server Error: Internal Server Error for url: /'),349
